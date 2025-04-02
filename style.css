@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* Change background color for body */
+    background-color: #ff5733; /* Your desired color */
+   /* Ensure this is not overridden by other rules */
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    background: none;
+}
+
+/* Logo Styling */
+.logo a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: none;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #9193f8;
+}
+
+/* Button Styling */
+.oval-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.oval-button:hover {
+    background-color: #0056b3;
+}
+
+/* Dropdown Button */
+.dropdown-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container.text{
+    position: absolute;
+    text-decoration: none;
+    font-size: 25px;
+    color:#fff;
+    padding:350px ;
+    gap:30px;
+}
+
+.container.mainimage{
+    width:20px;
+    height: 23px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #084b8f;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    background: none;
+}
+
+/* Hero Section */
+.hero-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Full screen height */
+    padding: 20px;
+    gap: 50px; /* Space between text and image */
+}
+
+/* Left Side - Text */
+.text-container {
+    max-width: 50%;
+    color: white;
+    font-size: 25px;
+}
+
+/* Right Side - Image */
+.image-container img {
+    width: 700px; /* Adjust size */
+    height: auto;
+}
